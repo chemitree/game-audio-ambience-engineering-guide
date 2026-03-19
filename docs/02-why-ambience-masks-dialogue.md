@@ -29,7 +29,7 @@ More specifically:
 
 These frequency regions contain the acoustic information that allows listeners to understand spoken words.
 
-![Spectral Energy Profile](../image/seamless-loop-table-energy-profile.png)
+![Spectral Energy Profile](image/seamless-loop-table-energy-profile.png)
 
 *Example spectral energy distribution of broadband ambience signal*
 
