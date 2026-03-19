@@ -141,3 +141,20 @@ Ambience loops can sound repetitive when:
 - the ambience lacks natural variation in intensity or spectral balance  
 
 By selecting neutral sound textures, avoiding recognizable events, and designing loops of 10–30 seconds or longer, developers can create ambience that remains natural and immersive throughout long gameplay sessions.
+
+---
+
+## Experience Engine-Ready Ambience — Free Sample
+
+Test a low-repetition, production-ready ambience loop designed for natural long-duration playback in real-time game audio systems.
+
+➡️ **Download the free sample:**  
+https://chemitree.gumroad.com/l/vjzbux
+
+Example uses:
+
+- testing loop stability in Unity / Unreal
+- evaluating dialogue clarity against ambience
+- verifying long-duration runtime playback
+
+Format: 48 kHz / 24-bit WAV · Stereo · Seamless loop
