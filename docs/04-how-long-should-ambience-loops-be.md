@@ -14,7 +14,7 @@ Finding the right loop length is therefore an important part of designing stable
 
 ## Why Loop Length Matters
 
-![Short vs Long Loop Repetition](image/Shorter Loops Repeat More Often.png)
+![Short vs Long Loop Repetition](image/docs/image/shorter-loops-repeat-more-often.png)
 
 *Short loops repeat far more frequently than long loops during extended gameplay sessions*
 
