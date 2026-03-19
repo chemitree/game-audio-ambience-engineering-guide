@@ -30,7 +30,7 @@ Several factors can cause clicks when ambience loops repeat.
 
 If the waveform at the end of the loop does not align with the waveform at the beginning, the sudden jump creates a transient artifact.
 
-![Loop Seam Discontinuity](image/invisible-loop-seam.png)
+![Loop Seam Discontinuity](..image/invisible-loop-seam.png)
 
 *Example of waveform discontinuity at a loop boundary*
 
