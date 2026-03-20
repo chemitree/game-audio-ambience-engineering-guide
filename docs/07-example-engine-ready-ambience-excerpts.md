@@ -4,27 +4,35 @@ Earlier sections of this guide explained common problems encountered when using 
 
 However, the most reliable way to understand these concepts is to test them directly in a real-time audio pipeline.
 
-This repository provides a free evaluation sample that allows developers to assess engine-ready ambience behavior in practice.
+This repository provides access to a free evaluation sample that allows developers to assess engine-ready ambience behavior in practice.
 
 ---
 
 ## Sample Overview
 
-The evaluation sample contains short excerpts from three different ambience environments:
+The evaluation sample contains two audio files designed for practical testing:
 
-- Indoor Airflow  
-- Mechanical Rumble  
-- Deep Tension  
+- **Mixed Environment Excerpt (approximately 30 seconds)**  
+  A comparative sample combining elements from three ambience environments:
+  - Indoor Airflow  
+  - Mechanical Rumble  
+  - Deep Tension  
 
-Each excerpt is approximately:
+- **Deep Tension — Normal Variant (30 seconds)**  
+  A full seamless loop suitable for direct testing in real-time audio systems
 
-**10 seconds**
+These files demonstrate both comparative ambience characteristics and the behavior of a production-ready loop inside interactive audio environments.
 
-Total combined duration:
+---
 
-**Approximately 30 seconds**
+## Free Sample Download
 
-These excerpts are intended for testing playback characteristics rather than serving as production-length ambience loops.
+Download the evaluation sample and test it directly in your engine:
+
+➡️ **Free download:**  
+https://chemitree.gumroad.com/l/vjzbux
+
+Testing in your actual runtime environment provides far more meaningful insight than listening in isolation.
 
 ---
 
@@ -48,7 +56,7 @@ The sample is engineered to minimize common runtime issues that developers often
 - excessive masking of dialogue or UI sounds  
 - noticeable artifacts during repeated playback  
 
-While short, the excerpts preserve the spectral and temporal characteristics of full engine-ready ambience assets.
+The seamless loop included in the sample enables direct evaluation of runtime behavior in real-world conditions.
 
 ---
 
@@ -67,17 +75,6 @@ Typical evaluation tasks include:
 - assessing dialogue compatibility  
 - monitoring behavior during repeated playback  
 - testing integration within an existing audio mix  
-
----
-
-## Free Sample Download
-
-Download the evaluation sample and test it directly in your engine:
-
-➡️ **Free download:**  
-https://chemitree.gumroad.com/l/vjzbux
-
-Testing in your actual runtime environment provides far more meaningful insight than listening in isolation.
 
 ---
 
