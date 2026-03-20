@@ -156,7 +156,7 @@ By carefully balancing loop duration, stability, and runtime constraints, develo
 
 ## Experience Engine-Ready Ambience — Free Sample
 
-Test the included seamless loop file `chemitree_deep_tension_normal_engine_ready_30s.wav` to evaluate runtime playback behavior in real-time audio systems.
+Test the included 30-second seamless loop file chemitree_deep_tension_normal_engine_ready_30s.wav to evaluate how loop duration affects repetition and immersion in real-time game audio systems.
 
 ➡️ **Download the free sample:**  
 https://chemitree.gumroad.com/l/vjzbux
