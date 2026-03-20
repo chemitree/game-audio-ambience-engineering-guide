@@ -152,12 +152,11 @@ Common practical guidelines include:
 
 By carefully balancing loop duration, stability, and runtime constraints, developers can create ambience environments that remain natural and immersive throughout long gameplay sessions.
 
-
 ---
 
 ## Experience Engine-Ready Ambience — Free Sample
 
-Test production-ready ambience excerpts from multiple environments, suitable for evaluating runtime playback behavior and integration in real-time game audio systems.
+Test the included seamless loop file `chemitree_deep_tension_normal_engine_ready_30s.wav` to evaluate runtime playback behavior in real-time audio systems.
 
 ➡️ **Download the free sample:**  
 https://chemitree.gumroad.com/l/vjzbux
