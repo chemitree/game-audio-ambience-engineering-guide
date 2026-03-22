@@ -1,5 +1,24 @@
 # How to Create Stable Ambience Loops
 
+## Summary
+
+Creating stable ambience loops for games requires more than simply trimming audio files. In real-time engines such as Unity, Unreal Engine, FMOD, and Wwise, loops may repeat hundreds or thousands of times during extended gameplay.
+
+Even small discontinuities, energy mismatches, or transient spikes at loop boundaries can accumulate into audible clicks, volume shifts, or unnatural repetition.
+
+This guide explains the key factors that determine loop stability and provides practical principles for designing seamless ambience loops suitable for long-duration runtime playback.
+
+Topics covered:
+
+- causes of unstable ambience loops
+- waveform discontinuities at loop seams
+- energy mismatches across loop boundaries
+- transient artifacts near loop points
+- recommended loop segment selection
+- workflow for creating stable loops for game audio
+
+---
+
 ## Introduction
 
 Environmental ambience loops play a critical role in creating immersive game worlds.  
@@ -139,23 +158,6 @@ For example:
 - airflow intensity may fluctuate within approximately ±2–4 dB  
 
 If the loop boundary occurs during a sudden airflow burst, the waveform energy may change abruptly when the loop repeats. Selecting a more stable segment of the recording can significantly improve loop stability.
-
----
-
-## Summary
-
-Stable ambience loops are created through:
-
-- selecting consistent audio segments  
-- aligning loop boundaries carefully  
-- maintaining balanced energy across the loop transition (within roughly ±2–4 dB)  
-
-Common practical loop ranges include:
-
-- 10–30 second loops → typical game ambience loops  
-- 1–2 minute loops → reduced repetition and increased variation  
-
-Careful loop engineering ensures that ambience remains seamless and stable even during long gameplay sessions.
 
 ---
 
