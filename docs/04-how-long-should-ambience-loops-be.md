@@ -1,5 +1,20 @@
 # How Long Should Ambience Loops Be in Games
 
+## Summary
+
+This guide explains how ambience loop length affects repetition, perceived realism, memory usage, and runtime performance in real-time game audio systems.
+
+Short loops repeat frequently and can become noticeable during long gameplay sessions, while longer loops reduce repetition but increase storage and streaming demands. In engines such as Unity, Unreal Engine, FMOD, and Wwise, selecting an appropriate loop duration requires balancing immersion with technical efficiency.
+
+Typical practical ranges:
+
+- 10–30 seconds → efficient, low memory usage, widely used  
+- 1–2 minutes → reduced repetition, more natural variation  
+
+Choosing the correct loop length helps create stable, seamless ambience that remains convincing during extended gameplay without unnecessary resource cost.
+
+---
+
 ## Introduction
 
 Ambience loops are widely used in games to create continuous environmental soundscapes.  
@@ -138,19 +153,6 @@ In this case:
 - using multiple modular loop segments  
 
 can reduce repetition and create a more natural environment.
-
----
-
-## Summary
-
-The ideal ambience loop length depends on both audio realism and technical performance.
-
-Common practical guidelines include:
-
-- **10–30 second loops** → efficient and widely used in games  
-- **1–2 minute loops** → reduced repetition and increased variation  
-
-By carefully balancing loop duration, stability, and runtime constraints, developers can create ambience environments that remain natural and immersive throughout long gameplay sessions.
 
 ---
 
