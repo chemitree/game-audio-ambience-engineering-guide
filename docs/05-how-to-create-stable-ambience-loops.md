@@ -17,8 +17,6 @@ Topics covered:
 - recommended loop segment selection
 - workflow for creating stable loops for game audio
 
----
-
 ## Introduction
 
 Environmental ambience loops play a critical role in creating immersive game worlds.  
@@ -39,8 +37,6 @@ When a loop repeats hundreds of times, even small artifacts can gradually become
 
 Creating stable ambience loops requires more than simply trimming an audio file. It requires careful selection of loop segments and maintaining consistent energy across the loop boundary.
 
----
-
 ## What Makes an Ambience Loop Stable
 
 A stable ambience loop can repeat continuously without producing audible artifacts.
@@ -56,8 +52,6 @@ For reliable long-duration playback, the loudness difference between the loop st
 
 When these conditions are satisfied, the loop can run for extended periods without breaking immersion.
 
----
-
 ## Common Causes of Instability
 
 Several issues can cause ambience loops to become unstable.
@@ -70,15 +64,11 @@ If the waveform at the end of the loop does not align with the waveform at the b
 
 *Example of waveform discontinuity at a loop boundary*
 
----
-
 ### Energy Mismatch
 
 If the energy level at the end of the loop differs significantly from the start, the transition may become audible.
 
 Energy differences greater than approximately 5–6 dB across the loop boundary often make the transition noticeable.
-
----
 
 ### Transient Activity
 
@@ -89,8 +79,6 @@ For example:
 - short transient peaks occurring exactly at the loop boundary  
 
 These transients may trigger audible artifacts each time the loop restarts.
-
----
 
 ### Unstable Ambience Segments
 
@@ -106,8 +94,6 @@ These elements typically fluctuate within approximately ±2–4 dB intensity var
 
 If loop points are placed during unstable sections, the transition may become noticeable.
 
----
-
 ## Why This Happens in Game Audio
 
 Unlike linear media such as film, game ambience must loop continuously. During gameplay, ambience loops may repeat hundreds or even thousands of times.
@@ -117,8 +103,6 @@ For example:
 - a 20-second loop repeated during a 2-hour play session repeats about 360 times  
 
 Even subtle artifacts can become noticeable after extended playback. This makes loop stability particularly important in real-time audio systems.
-
----
 
 ## Basic Principles for Stable Loops
 
@@ -133,8 +117,6 @@ Several design principles help create stable ambience loops:
 
 These principles help ensure reliable playback in real-time environments.
 
----
-
 ## Typical Workflow
 
 A common workflow for creating stable ambience loops:
@@ -147,8 +129,6 @@ A common workflow for creating stable ambience loops:
 6. Test the loop during 20–50 repeated playback cycles  
 7. Perform extended runtime testing in the target game engine  
 
----
-
 ## Example Scenario
 
 Consider an indoor ventilation ambience loop. Airflow recordings often contain small fluctuations in intensity.
@@ -158,8 +138,6 @@ For example:
 - airflow intensity may fluctuate within approximately ±2–4 dB  
 
 If the loop boundary occurs during a sudden airflow burst, the waveform energy may change abruptly when the loop repeats. Selecting a more stable segment of the recording can significantly improve loop stability.
-
----
 
 ## Experience Engine-Ready Ambience — Free Sample
 
