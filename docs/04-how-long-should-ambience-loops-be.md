@@ -13,8 +13,6 @@ Typical practical ranges:
 
 Choosing the correct loop length helps create stable, seamless ambience that remains convincing during extended gameplay without unnecessary resource cost.
 
----
-
 ## Introduction
 
 Ambience loops are widely used in games to create continuous environmental soundscapes.  
@@ -24,8 +22,6 @@ A common question among developers is how long an ambience loop should be.
 Loops that are too short may sound repetitive, while loops that are too long may increase memory usage and reduce runtime efficiency.
 
 Finding the right loop length is therefore an important part of designing stable ambience for real-time game environments.
-
----
 
 ## Why Loop Length Matters
 
@@ -44,8 +40,6 @@ For example:
 
 Longer loops reduce repetition but may require more memory or streaming resources.  
 Because game audio systems must balance immersion with runtime efficiency, loop length becomes a key design decision.
-
----
 
 ## Common Loop Length Ranges
 
@@ -71,8 +65,6 @@ Example repetition rates:
 - 10-second loop → about 360 repetitions per hour  
 - 20-second loop → about 180 repetitions per hour  
 
----
-
 ### Long Loops
 
 Long ambience loops often range between:
@@ -95,8 +87,6 @@ Example repetition rates:
 
 Longer loops therefore significantly reduce the likelihood that players will detect repeating patterns.
 
----
-
 ## Why This Happens in Game Audio
 
 Unlike linear media such as film, game audio operates within real-time systems.  
@@ -111,8 +101,6 @@ At the same time, excessively long loops may place unnecessary demands on memory
 
 This makes loop duration a balance between realism and technical constraints.
 
----
-
 ## Basic Principles for Choosing Loop Length
 
 Several principles can help determine an appropriate loop duration:
@@ -126,8 +114,6 @@ Several principles can help determine an appropriate loop duration:
 
 Applying these principles helps maintain both immersion and runtime efficiency.
 
----
-
 ## Typical Workflow
 
 A common workflow for selecting ambience loop length:
@@ -138,8 +124,6 @@ A common workflow for selecting ambience loop length:
 4. Select loop segments of 10–30 seconds or 1–2 minutes  
 5. Test the loop during 20–50 repeated playback cycles  
 6. Adjust the duration if repetition becomes noticeable  
-
----
 
 ## Example Scenario
 
@@ -153,8 +137,6 @@ In this case:
 - using multiple modular loop segments  
 
 can reduce repetition and create a more natural environment.
-
----
 
 ## Experience Engine-Ready Ambience — Free Sample
 
