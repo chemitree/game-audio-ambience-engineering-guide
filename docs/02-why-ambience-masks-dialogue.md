@@ -8,8 +8,6 @@ In real-time audio engines such as Unity, Unreal Engine, FMOD, and Wwise, ambien
 
 This guide explains the technical causes of dialogue masking and provides practical principles for designing dialogue-friendly ambience for real-time game audio systems.
 
----
-
 ## Introduction
 
 In many games, ambience plays an important role in creating immersive environments.  
@@ -20,8 +18,6 @@ When background ambience overlaps with the frequency range of speech, it can mak
 This phenomenon is known as audio masking.
 
 Understanding why ambience masks dialogue is essential for designing balanced and immersive game audio.
-
----
 
 ## What Is Dialogue Masking
 
@@ -46,8 +42,6 @@ These frequency regions contain the acoustic information that allows listeners t
 If ambience contains strong energy within these ranges, dialogue clarity can be reduced.  
 In practical game audio mixing, ambience is often kept approximately **6–10 dB lower than dialogue** to maintain speech intelligibility.
 
----
-
 ## Common Causes
 
 Several factors can cause ambience to mask dialogue in game audio environments.
@@ -59,16 +53,12 @@ If ambience contains excessive energy within the 1–4 kHz range, it may interfe
 
 In practice, ambience energy in this band is often kept **6–12 dB lower than dialogue energy**.
 
----
-
 ### Continuous broadband noise
 
 Background textures such as airflow, fans, or machinery can create a constant energy bed that competes with dialogue.
 
 For example, ventilation noise often contains broadband energy within the 500 Hz – 3 kHz range, which overlaps with speech frequencies.  
 When this energy is continuous, it can gradually reduce dialogue intelligibility.
-
----
 
 ### Tonal elements
 
@@ -81,15 +71,11 @@ Examples include:
 
 These tonal components can interfere with consonant articulation and speech perception.
 
----
-
 ### Poor spectral balance
 
 If ambience is not spectrally balanced, excessive energy in speech frequencies can interfere with dialogue.
 
 In practical mixing situations, ambience may be shaped with **3–6 dB attenuation around the 2–4 kHz region** to reduce masking.
-
----
 
 ## Why This Happens in Game Audio
 
@@ -106,8 +92,6 @@ During extended playback, persistent midrange energy can gradually interfere wit
 
 This makes spectral balance and level relationships particularly important in real-time game audio systems.
 
----
-
 ## Basic Principles for Dialogue-Friendly Ambience
 
 Several design principles can help reduce dialogue masking.
@@ -120,7 +104,6 @@ Several design principles can help reduce dialogue masking.
 
 Applying these principles helps maintain clarity while preserving environmental immersion.
 
----
 
 ## Typical Workflow
 
@@ -133,8 +116,6 @@ A common workflow for designing dialogue-friendly ambience is:
 5. Test the ambience together with dialogue playback.  
 6. Verify that dialogue remains 6–10 dB louder than ambience during extended runtime conditions.  
 
----
-
 ## Example Scenario
 
 Consider an indoor ventilation ambience used in a dialogue-heavy game scene.
@@ -143,9 +124,6 @@ Ventilation noise often contains broadband airflow energy within the 500 Hz – 
 If this energy overlaps strongly with the speech band, dialogue may become difficult to understand.
 
 Reducing midrange energy by 3–6 dB or lowering ambience level to 6–10 dB below dialogue can significantly improve dialogue clarity while maintaining environmental ambience.
-
----
-
 
 ## Experience Engine-Ready Ambience — Free Sample
 
