@@ -1,5 +1,22 @@
 # Why Ambience Can Mask Dialogue in Games
 
+## Summary
+
+This guide explains why background ambience in games can unintentionally mask dialogue and reduce speech intelligibility.
+
+In real-time game audio systems such as Unity, Unreal Engine, FMOD, and Wwise, ambience often plays continuously while dialogue occurs simultaneously. If the ambience contains strong energy in the midrange frequencies (approximately 1–4 kHz), it can overlap with the human voice and make spoken lines difficult to understand.
+
+Topics covered:
+
+- causes of dialogue masking in game audio
+- spectral overlap between ambience and speech
+- midrange energy in the 1–4 kHz band
+- level relationships between dialogue and ambience
+- practical techniques for dialogue-friendly ambience design
+- considerations for long-duration runtime playback
+
+---
+
 ## Introduction
 
 In many games, ambience plays an important role in creating immersive environments.  
@@ -136,14 +153,6 @@ Reducing midrange energy by 3–6 dB or lowering ambience level to 6–10 dB bel
 
 ---
 
-## Summary
-
-Dialogue masking occurs when ambience overlaps with the frequency range of human speech.  
-Because important speech information lies within the 1–4 kHz midrange region, background sounds with strong energy in this range can reduce dialogue intelligibility.
-
-By carefully shaping the spectral balance of ambience and maintaining a 6–10 dB level difference between dialogue and ambience, developers can create immersive environments that preserve speech clarity during gameplay.
-
----
 
 ## Experience Engine-Ready Ambience — Free Sample
 
