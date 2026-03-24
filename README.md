@@ -1,5 +1,7 @@
 # Game Audio Ambience Engineering Guide
 
+Engineering principles for engine-ready ambience loops in real-time game audio systems
+
 Poorly designed ambience loops can produce clicks, repetition artifacts, and dialogue masking in games.
 
 This repository explains common technical issues developers encounter when designing ambience loops for real-time game engines.
