@@ -2,18 +2,18 @@
 
 ## Summary
 
-This guide explains why ambience loops in games can produce audible clicks when they repeat.
+This guide explains why ambience and ambient sound loops used as background environmental audio in games can produce audible clicks when they repeat.
 
-In real-time game engines such as Unity, Unreal, FMOD, and Wwise, seamless audio loops must transition cleanly at the loop boundary. Even small waveform discontinuities or loudness mismatches can generate transient spikes that become noticeable during long gameplay sessions.
+In real-time game engines such as Unity, Unreal, FMOD, and Wwise, seamless or loopable audio must transition cleanly at the loop boundary. Even small waveform discontinuities or loudness mismatches can generate transient spikes that become noticeable during long gameplay sessions.
 
 Topics covered:
 
-- causes of loop clicks in game audio
+- causes of clicks in ambience and ambient audio loops
 - waveform discontinuities at loop seams
 - transient artifacts near loop boundaries
 - loudness mismatch between start and end points
-- practical techniques for creating seamless ambience loops
-- stability considerations for long runtime playback
+- practical techniques for creating seamless, loopable ambience
+- stability considerations for long-duration runtime playback
 
 ## Introduction
 
