@@ -4,6 +4,25 @@ Loop clicks, repetition, and dialogue masking are common issues in real-time gam
 
 This guide explains the engineering principles behind stable, seamless ambience loops.
 
+---
+
+🎧 Test an Engine-Ready Ambience Loop
+
+Download a seamless loop sample and test it directly in your engine:
+
+➡️ Direct WAV download (Deep Tension 30s)
+[GitHub 파일 링크]
+
+➡️ Full evaluation pack (multiple samples)
+https://chemitree.gumroad.com/l/vjzbux
+
+---
+
+Seamless Loop Boundary
+Example of a seamless loop boundary with no discontinuity
+
+
+
 ![Seamless Loop Boundary](docs/image/invisible-loop-seam.png)
 *Example of a seamless loop boundary with no discontinuity*
 
@@ -33,15 +52,6 @@ This guide focuses on engineering principles rather than specific audio tools or
 
 ![Stable Energy Profile](docs/image/seamless-loop-table-energy-profile.png)
 *Representative spectral profile of ambience signal*
-
-## Free Evaluation Sample
-
-A free evaluation sample containing short engine-ready ambience excerpts is available for testing in real-time audio systems.
-
-➡️ **Free evaluation sample download:**  
-https://chemitree.gumroad.com/l/vjzbux
-
----
 
 This guide covers common technical problems encountered when designing ambience loops for game audio systems.
 
