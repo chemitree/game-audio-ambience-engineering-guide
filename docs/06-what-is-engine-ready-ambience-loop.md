@@ -56,11 +56,7 @@ Typical design goals include:
 - reduced risk of dialogue masking  
 - reduced perception of repetition  
 
-![Engine-Ready Audio Specifications](image/engine-ready-audio-specifications.png)
-
-*Example technical format for engine-ready ambience assets*
-
-For example, ambience textures may naturally fluctuate within about ±2–4 dB. However, precise loop boundary alignment is typically kept within about ±1 dB RMS difference to maintain smooth transitions.
+Ambience textures may naturally fluctuate, but loop boundaries are carefully aligned to maintain smooth transitions.
 
 ## Typical Technical Characteristics
 
