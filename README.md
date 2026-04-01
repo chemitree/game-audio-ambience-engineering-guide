@@ -1,14 +1,9 @@
 # Game Audio Ambience Engineering Guide
 
-Engineering principles for engine-ready ambience loops in real-time game audio systems
+Engineering principles for stable ambience loops in real-time game audio systems.
 
-Poorly designed ambience loops can produce clicks, repetition artifacts, and dialogue masking in games.
+This guide explains common technical issues such as loop clicks, repetition artifacts, and dialogue masking in interactive environments like Unity and Unreal Engine.
 
-This repository explains common technical issues developers encounter when designing ambience loops for real-time game engines.
-
-It focuses on practical problems that arise when ambience loops are used in interactive environments such as Unity and Unreal Engine.
-
-An example audio file containing three engine-ready ambience excerpts is available for evaluation download so developers can test it directly in real-time audio systems.
 
 ![Seamless Loop Boundary](docs/image/invisible-loop-seam.png)
 *Example of a seamless loop boundary with no discontinuity*
