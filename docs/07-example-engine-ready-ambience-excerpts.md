@@ -25,7 +25,7 @@ The evaluation sample contains two audio files designed for practical testing:
 - **Deep Tension — Normal Variant (30 seconds)**  
   A full seamless loop suitable for direct testing in real-time audio systems
 
-These files demonstrate both comparative ambience characteristics and the behavior of a production-ready loop inside interactive audio environments.
+These files provide examples of different ambience characteristics and allow observation of loop behavior in interactive audio environments.
 
 ## Free Sample Download
 
@@ -47,14 +47,7 @@ These specifications are commonly used in real-time game audio pipelines and are
 
 ## Design Intent
 
-The sample is engineered to minimize common runtime issues that developers often encounter when using ambience in interactive systems, including:
-
-- loop clicks at boundary transitions  
-- unstable playback behavior  
-- excessive masking of dialogue or UI sounds  
-- noticeable artifacts during repeated playback  
-
-The seamless loop included in the sample enables direct evaluation of runtime behavior in real-world conditions.
+This sample is intended to be evaluated directly within a real-time audio environment, enabling observation of runtime behaviour under realistic conditions.
 
 ## Evaluation Purpose
 
@@ -65,13 +58,19 @@ Developers can use this sample to quickly verify how engineered ambience behaves
 - FMOD  
 - Wwise  
 
-Typical evaluation tasks include:
+## Suggested Validation Checks
 
-- checking playback stability  
-- assessing dialogue compatibility  
-- monitoring behavior during repeated playback  
-- testing integration within an existing audio mix  
+When testing the sample in your engine, consider observing:
 
+- loop seam continuity during repeated playback  
+- presence of clicks or transient artifacts at loop boundaries  
+- loudness consistency across loop iterations  
+- dialogue clarity when ambience is mixed with speech  
+- spectral balance across low, mid, and high frequency ranges  
+- stability during extended playback sessions (20+ minutes)  
+- behavior when summed to mono  
+
+These observations can help identify common issues that affect ambience performance in real-time audio systems.
 
 ## Full Ambience Library
 
