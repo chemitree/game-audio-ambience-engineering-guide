@@ -73,6 +73,26 @@ The articles focus on common runtime problems such as:
 
 ---
 
+## Quality Assurance
+
+All ambience loops in this library have been systematically tested using an automated QC pipeline designed for real-time audio environments.
+
+Validation includes:
+
+• Loop seam analysis (RMS / peak continuity across boundaries)  
+• Long-duration stability testing (20+ minute continuous playback)  
+• Click / transient detection across loop iterations  
+• Loudness consistency (EBU R128 / LUFS)  
+• Spectral balance verification (low / mid / high band analysis)  
+• Signal integrity checks (clipping, DC offset, RMS range)  
+• Stereo-to-mono compatibility validation  
+
+These tests ensure that each file maintains stable behaviour during extended runtime and repeated looping.
+
+All files included in this package have passed the full QC pipeline.
+
+---
+
 ## License
 
 This work is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
