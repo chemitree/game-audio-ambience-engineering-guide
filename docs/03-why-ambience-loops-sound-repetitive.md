@@ -2,19 +2,9 @@
 
 ## Summary
 
-Ambience loops in games can sound repetitive when they repeat for long periods without sufficient variation.
+Ambience loops can sound repetitive when short durations or recognizable patterns repeat over time.
 
-In real-time game engines, background ambience may play continuously for hours.  
-Short loop durations, recognizable sound events, and lack of natural fluctuation can make repetition noticeable and break immersion.
-
-Topics covered:
-
-- why ambience loops become repetitive over time
-- effects of short loop durations
-- recognizable patterns inside loops
-- lack of natural variation in environmental audio
-- practical techniques for reducing perceived repetition
-- recommended loop design principles for long gameplay sessions
+This guide explains why repetition occurs and how to reduce it in real-time systems.
 
 ## Introduction
 
