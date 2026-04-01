@@ -8,13 +8,9 @@ This repository includes a free evaluation sample that allows developers to asse
 
 ## Summary
 
-This section provides a free evaluation sample designed for testing
-engine-ready ambience behavior in real-time audio systems.
+This evaluation sample allows testing of loop stability, dialogue compatibility, and playback behavior in real-time systems.
 
-Unlike generic audio previews, the included files are prepared for
-practical integration testing inside game engines and audio middleware,
-allowing developers to assess loop stability, playback behavior,
-and dialogue compatibility under real runtime conditions.
+It provides a practical way to verify engine-ready ambience under actual runtime conditions.
 
 ## Sample Overview
 
