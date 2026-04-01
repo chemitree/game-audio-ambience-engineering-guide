@@ -61,9 +61,6 @@ The articles focus on common runtime problems such as:
 - [What Engine-Ready Ambience Means](docs/06-what-is-engine-ready-ambience-loop.md)
 - [Example Engine-Ready Ambience Excerpts](docs/07-example-engine-ready-ambience-excerpts.md)
 
-![Engine-Ready Audio Specifications](docs/image/engine-ready-audio-specifications.png)
-*Typical format used for engine-ready ambience assets*
-
 ---
 
 ## License
