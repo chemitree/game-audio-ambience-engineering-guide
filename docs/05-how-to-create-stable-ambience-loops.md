@@ -118,6 +118,22 @@ A common workflow for creating stable ambience loops:
 6. Test the loop during 20–50 repeated playback cycles  
 7. Perform extended runtime testing in the target game engine  
 
+## Loop Validation (Quality Assurance)
+
+A QC pipeline can be used to validate ambience loops in real-time audio environments.
+
+Validation typically includes:
+
+• Loop seam analysis (RMS / peak continuity across boundaries)  
+• Long-duration stability testing (20+ minute continuous playback)  
+• Click / transient detection across loop iterations  
+• Loudness consistency (EBU R128 / LUFS)  
+• Spectral balance verification (low / mid / high band analysis)  
+• Signal integrity checks (clipping, DC offset, RMS range)  
+• Stereo-to-mono compatibility validation  
+
+These tests help identify potential issues during extended runtime and repeated looping.
+
 ## Example Scenario
 
 Consider an indoor ventilation ambience loop. Airflow recordings often contain small fluctuations in intensity.
