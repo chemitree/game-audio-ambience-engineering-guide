@@ -75,7 +75,7 @@ The articles focus on common runtime problems such as:
 
 ## Quality Assurance
 
-All ambience loops in this library have been systematically tested using an automated QC pipeline designed for real-time audio environments.
+A QC pipeline can be used to validate ambience loops in real-time audio environments.
 
 Validation includes:
 
@@ -88,8 +88,6 @@ Validation includes:
 • Stereo-to-mono compatibility validation  
 
 These tests ensure that each file maintains stable behaviour during extended runtime and repeated looping.
-
-All files included in this package have passed the full QC pipeline.
 
 ---
 
