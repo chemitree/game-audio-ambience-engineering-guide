@@ -10,7 +10,7 @@ This guide explains the engineering principles behind stable, seamless ambience 
 
 Download a seamless loop sample and test it directly in your engine:
 
-▶ Watch Engine-Ready Loop Test (30s)
+▶ Click image to watch loop test (30s)
 
 [![Engine-Ready Loop Preview](https://img.youtube.com/vi/l_fjHJa87G4/maxresdefault.jpg)](https://youtu.be/l_fjHJa87G4)
 
