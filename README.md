@@ -10,6 +10,8 @@ This guide explains the engineering principles behind stable, seamless ambience 
 
 Download a seamless loop sample and test it directly in your engine:
 
+[![Engine-Ready Loop Preview](https://img.youtube.com/vi/l_fjHJa87G4/maxresdefault.jpg)](https://youtu.be/l_fjHJa87G4)****
+
 ➡️ Direct WAV download (Deep Tension 30s)  
 https://raw.githubusercontent.com/chemitree/game-audio-ambience-engineering-guide/main/samples/deep_tension_normal_engine_ready_30s.wav
 
